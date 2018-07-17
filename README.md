@@ -42,17 +42,7 @@
 
 * A continuación generaremos una serie de modelos simples:
 
-$$
-\texttt{Balance} = \beta_{0} + \gamma_{1}\cdot\texttt{Student} + \varepsilon
-$$
-
-$$
-\texttt{Balance} = \beta_{0} + \beta_{1}\cdot\texttt{Income}+ \varepsilon
-$$
-
-$$
-\texttt{Balance} = \beta_{0} + \beta_{1}\cdot\texttt{Rating}+ \varepsilon
-$$
+![alttext](eq1.gif)
 
 * Utilizando `statsmodels`, comente brevemente los siguientes puntos:
     - ¿Qué variable presenta un mayor poder explicativo de la variabilidad de `Balance`?
@@ -61,9 +51,7 @@ $$
 
 ## Ejercicio 4: Genere un modelo que incluya todos los regresores
 
-$$
-\texttt{Balance}_{i} = \beta_{0} + \sum_{j=1}^{N}\beta_{j}\cdot X_{i j} + \varepsilon_{i}
-$$
+![alttext](eq2.gif)
 
 * Comente brevemente sobre el poder explicativo en la varianza de $y$ y las principales características de los predictores.
 
