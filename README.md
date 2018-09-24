@@ -33,7 +33,7 @@
 
 ## Ejercicio 2: Genere gráficos descriptivos para las variables contínuas
 
-* Genere una función llamada `plot_hist` que genere un histograma de la variable e indique la media y mediana de la misma. Agrege una legenda para indicar qué representa cada línea.
+* Genere una función llamada `plot_hist` que genere un histograma de la variable e indique la media y mediana de la misma. Agrege una leyenda para indicar qué representa cada línea.
 * ¿Cuál es el comportamiento de `Balance`, `Income`, `Cards` y `Rating`?
 
 
